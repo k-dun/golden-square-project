@@ -14,9 +14,9 @@ estimate_time: time it'll take to read the text
 
 3. 
 
-calculate_time(string containing 200 words) = "1 minute"
-calculate_time(string containing 400 words) = "2 minutes"
-calculate_time(string containing 100 words) = "30 seconds"
-calculate_time(string containing 150 words) = "1 minute 30 seconds"
+calculate_time(string containing 200 words) = "1 min"
+calculate_time(string containing 400 words) = "2 min"
+calculate_time(string containing 100 words) = "1 min"
+calculate_time(string containing 150 words) = "1 min"
 calculate_time("") throws an error
 calculate_time(nil) throws an error
