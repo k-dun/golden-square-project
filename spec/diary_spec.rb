@@ -71,4 +71,10 @@ RSpec.describe "check_text method" do
     result = check_text("task #TODO")
     expect(result).to eq true
   end
+
+  it "checks whether text includes #TODO" do
+    result = check_text("task")
+    expect(result).to eq false
+  end
+
 end
