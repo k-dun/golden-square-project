@@ -17,3 +17,5 @@ check_text("task") => false
 check_text("") => throws an error
 
 4. Let's go.
+
+Yay! :)
