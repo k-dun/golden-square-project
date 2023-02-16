@@ -23,5 +23,6 @@ def check_grammar(text)
 end
 
 def check_text(text)
+  fail "Text is empty." if text.empty?
   text.include?("#TODO") ? true : false
 end

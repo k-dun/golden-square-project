@@ -77,4 +77,8 @@ RSpec.describe "check_text method" do
     expect(result).to eq false
   end
 
+  it "fails" do
+    expect { check_text("") }.to raise_error "Text is empty."
+  end
+  
 end
