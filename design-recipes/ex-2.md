@@ -17,5 +17,3 @@ check_grammar("Konrad rules.") => true
 check_grammar("Konrad doesn't rule") => false
 check_grammar("konrad doesn't rule.") => false
 check_grammar("konrad doesn't rule") => false
-
-4. 

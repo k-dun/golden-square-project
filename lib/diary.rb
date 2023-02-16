@@ -21,3 +21,7 @@ def check_grammar(text)
   correct_punctuation = [".", "!", "?"]
   (text[0] == text[0].upcase && correct_punctuation.include?(text[-1])) ? true : false
 end
+
+def check_text(text)
+  text.include?("#TODO") ? true : false
+end

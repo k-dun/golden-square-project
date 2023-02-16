@@ -19,4 +19,3 @@ calculate_time(string containing 400 words) = "2 min"
 calculate_time(string containing 100 words) = "1 min"
 calculate_time(string containing 150 words) = "1 min"
 calculate_time("") throws an error
-calculate_time(nil) throws an error
