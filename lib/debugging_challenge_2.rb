@@ -25,5 +25,5 @@ class LetterCounter
   end
 end
 
-counter = LetterCounter.new("Digital Punk Digital Punk")
+counter = LetterCounter.new("Digital Punk")
 p counter.calculate_most_common
